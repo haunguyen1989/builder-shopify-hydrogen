@@ -2,11 +2,13 @@ import {defineConfig, CookieSessionStorage} from '@shopify/hydrogen/config';
 
 export default defineConfig({
   shopify: {
-    defaultCountryCode: 'US',
+    defaultCountryCode: 'SG',
     defaultLanguageCode: 'EN',
-    storeDomain: 'merkle-vn.myshopify.com',
-    storefrontToken: '85e4ab6d03bcea5e182b1f327b04b122',
+    storeDomain: Oxygen.env.PUBLIC_STORE_DOMAIN,
+    storefrontToken: Oxygen.env.PUBLIC_STOREFRONT_API_TOKEN,
+    privateStorefrontToken: Oxygen.env.PRIVATE_STOREFRONT_API_TOKEN,
     storefrontApiVersion: '2022-07',
+    storefrontId: Oxygen.env.PUBLIC_STOREFRONT_ID,
   },
   session: CookieSessionStorage('__session', {
     path: '/',
