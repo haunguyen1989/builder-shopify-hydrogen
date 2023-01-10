@@ -39,6 +39,9 @@ export function Footer({menu}: {menu?: EnhancedMenu}) {
         <a href={"/builder/testing"}>/builder/testing</a>
       </section>
       <section className="grid gap-4 w-full md:max-w-[335px] md:ml-auto">
+        <a href={"/builder/landing"}>/builder/landing</a>
+      </section>
+      <section className="grid gap-4 w-full md:max-w-[335px] md:ml-auto">
         <a href={"/pages/testing"}>/pages/testing</a>
       </section>
       <section className="grid gap-4 w-full md:max-w-[335px] md:ml-auto">
