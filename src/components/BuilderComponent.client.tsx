@@ -1,6 +1,6 @@
 import {builder, BuilderComponent} from '@builder.io/react';
 import "@builder.io/widgets";
 
-builder.init('cda38653c81344cf8859bd15e4d8e30d');
+builder.init('8141715a0ca14a24a7ec39204b570b0e');
 
 export { BuilderComponent };

@@ -4,8 +4,8 @@ export default defineConfig({
   shopify: {
     defaultCountryCode: 'SG',
     defaultLanguageCode: 'EN',
-    storeDomain: Oxygen.env.PUBLIC_STORE_DOMAIN,
-    storefrontToken: Oxygen.env.PUBLIC_STOREFRONT_API_TOKEN,
+    storeDomain: Oxygen.env.PUBLIC_STORE_DOMAIN || 'merkle-vn.myshopify.com',
+    storefrontToken: Oxygen.env.PUBLIC_STOREFRONT_API_TOKEN || '3155188cfb5b4f6c4a9e9110990dc06f',
     privateStorefrontToken: Oxygen.env.PRIVATE_STOREFRONT_API_TOKEN,
     storefrontApiVersion: '2022-07',
     storefrontId: Oxygen.env.PUBLIC_STOREFRONT_ID,
