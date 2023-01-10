@@ -36,19 +36,13 @@ export function Footer({menu}: {menu?: EnhancedMenu}) {
         <CountrySelector />
       </section>
       <section className="grid gap-4 w-full md:max-w-[335px] md:ml-auto">
-        <a href={"/builder/testing"}>/builder/testing</a>
+        <a href={"/builder/testing"}>testing</a>
       </section>
       <section className="grid gap-4 w-full md:max-w-[335px] md:ml-auto">
-        <a href={"/builder/landing"}>/builder/landing</a>
+        <a href={"/builder/landing"}>landing</a>
       </section>
       <section className="grid gap-4 w-full md:max-w-[335px] md:ml-auto">
-        <a href={"/pages/testing"}>/pages/testing</a>
-      </section>
-      <section className="grid gap-4 w-full md:max-w-[335px] md:ml-auto">
-        <a href={"/testing"}>/testing</a>
-      </section>
-      <section className="grid gap-4 w-full md:max-w-[335px] md:ml-auto">
-        <a href={"/about-us"}>/about-us</a>
+        <a href={"/builder/about-us"}>about-us</a>
       </section>
       <div
         className={`self-end pt-8 opacity-50 md:col-span-2 lg:col-span-${itemsCount}`}
